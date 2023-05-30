@@ -1,0 +1,2 @@
+05/29/2023
+Started by creating a new public repository on github. Once repository was created, I cloned it into my folder so I could start pulling and pushing files to and from the repository.  I started with a main page and created a navigation bar, to allow me to move to my other pages.  Nothing major yet, as I was just getting my pages setup with a basic h1 heading to make sure I was able to link to my other pages properly.
