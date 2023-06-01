@@ -50,3 +50,49 @@ h1 {
   background-color: var(--orange);
   color: var(--white);
 }
+
+form {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  outline: 1px solid;
+  width: 400px;
+  background-color: aqua;
+}
+
+div > label {
+  width: 200px;
+  display: inline-block;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  font-size: 14px;
+}
+
+input[type="submit"] {
+  display: inline-block;
+  margin-left: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 5px 30px;
+}
+
+input[type="submit"]:hover {
+  background-color: var(--gray);
+  color: var(--white);
+}
+
+input[type="reset"] {
+  display: inline-block;
+  padding: 5px 30px;
+}
+
+input[type="reset"]:hover {
+  background-color: var(--gray);
+  color: var(--white);
+}
+
+fieldset {
+  border: none;
+  margin-top: 1rem;
+  font-size: medium;
+}
