@@ -96,3 +96,16 @@ fieldset {
   margin-top: 1rem;
   font-size: medium;
 }
+
+.information {
+  margin-left: 10rem;
+  margin-top: -2rem;
+}
+.information > ul {
+  display: flex;
+}
+
+.information > ul > li {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
