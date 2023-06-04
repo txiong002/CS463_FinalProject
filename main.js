@@ -1,6 +1,6 @@
 let body = document.body;
 body.style.backgroundColor = "#080808";
-body.style.width = "100vw";
+//body.style.width = "100%";
 body.style.minHeight = "100vh";
 body.style.color = "#fefefe";
 body.margin = "0rem";
