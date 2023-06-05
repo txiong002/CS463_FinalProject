@@ -6,8 +6,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Projects</title>
     <link rel="stylesheet" href="styles.css" />
+    <script defer src="contacts.js"></script>
   </head>
   <body>
+    <div class="navbar">
+      <a href="main.html">Home Page</a>
+      <a href="prev_work.html">Previous Work</a>
+      <a href="my_projects.html">Projects</a>
+    </div>
     <h1>My Projects</h1>
+    <div class="projects">
+      <h3>
+        Below are a couple Projects I have worked on during time in school
+      </h3>
+      <p>
+        This was my first program using Object Oriented Program. The program
+        show the use and understanding of the 4 principles of OOP, which are
+        Abstraction, Encapsulation, Inheritance and Polymorphism. This progam
+        tracks different relief items that are provided to people in need of
+        help. Services provided and donated items are added to the list,
+        services used are removed from the list. We also check the list for
+        services, before removing it from the list.
+      </p>
+      <a href="https://github.com/txiong002/CS202_Fall-20-Program-1"
+        >Github Link: Relief Effort Tracker</a
+      >
+      <br />
+      <p>
+        This program was from CS333: Computer Systems. For this project we had
+        to write our own lottery system for the cpu. The lottery system tells
+        the cpu which task to do first, by awarding tickets to each task. More
+        tickets means higher priority, lower priority task can also give thier
+        tickets to higher ones. Most of the files were included, and we just had
+        to implement the lottery system, which is found in the proc.c file.
+        Doing this project, made me appricate all the work that is required to
+        get a pc running.
+      </p>
+      <a href="https://github.com/txiong002/CS333_xv6-lottery"
+        >Github Link: XV6 Lottery System</a
+      >
+    </div>
+    <h1>Contact Me</h1>
+    <form>
+      <div>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Full Name" />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="email" />
+      </div>
+      <div>
+        <label for="phoneNumber">Phone Number</label>
+        <input
+          type="number"
+          name="phoneNumber"
+          id="phoneNumber"
+          placeholder="(###)###-####"
+        />
+      </div>
+      <div>
+        <fieldset>
+          <legend>Alternate Contact</legend>
+          <label>
+            <input type="radio" name="altContact" value="facebook" />Facebook
+          </label>
+          <br />
+          <label>
+            <input type="radio" name="altContact" value="linkedin" />LinkedIn
+          </label>
+          <br />
+          <label>
+            <input type="radio" name="altContact" value="twitter" />Twitter
+          </label>
+        </fieldset>
+      </div>
+      <div>
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Reset" />
+      </div>
+    </form>
   </body>
 </html>

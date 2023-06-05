@@ -20,6 +20,7 @@ nameBox.style.textAlign = "center";
 nameBox.style.backgroundColor = "teal";
 nameBox.style.width = "80%";
 nameBox.style.marginLeft = "auto";
+nameBox.style.color = "#fefefe";
 
 let displayName = document.getElementById("yourName");
 displayName.style.fontSize = "50px";
@@ -29,7 +30,7 @@ for (let i = 0; i < container02.length; i++) {
   container02[i].style.display = "flex";
   container02[i].style.width = "20%";
   container02[i].style.marginRight = "auto";
-  container02[i].style.marginTop = "-40rem";
+  container02[i].style.marginTop = "-45rem";
 }
 
 let headers = document.getElementsByTagName("h3");
@@ -49,13 +50,18 @@ for (let i = 0; i < container03.length; i++) {
   container03[i].style.flexDirection = "column";
   container03[i].style.width = "80%";
   container03[i].style.marginLeft = "auto";
+  container03[i].style.paddingLeft = "5rem";
 }
-let education = document.getElementById("education");
 
-let work = document.getElementById("work-history");
+let dtTags = document.getElementsByTagName("dt");
+for (let i = 0; i < dtTags.length; i++) {
+  dtTags[i].style.fontStyle = "italic";
+  dtTags[i].style.fontWeight = "bold";
+  dtTags[i].style.paddingTop = "1rem";
+  dtTags[i].style.paddingBottom = "1rem";
+}
 
-let pTags = document.getElementsByTagName("p");
-for (let i = 0; i < pTags.length; i++) {
-  pTags[i].style.fontStyle = "italic";
-  pTags[i].style.fontWeight = "bold";
+let ddTags = document.getElementsByTagName("dd");
+for (let i = 0; i < ddTags.length; i++) {
+  ddTags[i].style.padding = ".5rem";
 }

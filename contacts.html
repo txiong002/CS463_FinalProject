@@ -9,6 +9,12 @@
     <script defer src="contacts.js"></script>
   </head>
   <body>
+    <div class="navbar">
+      <a href="main.html">Home Page</a>
+      <a href="prev_work.html">Previous Work</a>
+      <a href="my_projects.html">Projects</a>
+      <a href="contacts.html">Contact</a>
+    </div>
     <h1>Contact Me</h1>
     <form>
       <div>
@@ -31,19 +37,17 @@
       <div>
         <fieldset>
           <legend>Alternate Contact</legend>
-          <input
-            type="radio"
-            name="altContact"
-            id="facebook"
-            placeholder="facebook id"
-          />
-          <label for="facebook">Facebook</label>
+          <label>
+            <input type="radio" name="altContact" value="facebook" />Facebook
+          </label>
           <br />
-          <input type="radio" name="altContact" id="linkedin" />
-          <label for="altContact">LinkedIn</label>
+          <label>
+            <input type="radio" name="altContact" value="linkedin" />LinkedIn
+          </label>
           <br />
-          <input type="radio" name="altContact" id="twitter" />
-          <label for="altContact">Twitter</label>
+          <label>
+            <input type="radio" name="altContact" value="twitter" />Twitter
+          </label>
         </fieldset>
       </div>
       <div>

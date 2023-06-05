@@ -22,6 +22,7 @@ body {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1.2em;
   color: var(--black);
+  background-color: var(--light-light-gray);
 }
 h1 {
   text-align: center;
@@ -57,7 +58,7 @@ form {
   border-radius: 5px;
   outline: 1px solid;
   width: 400px;
-  background-color: aqua;
+  background-color: var(--teal);
 }
 
 div > label {

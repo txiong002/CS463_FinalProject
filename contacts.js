@@ -1,6 +1,11 @@
 const body = document.body;
-body.style.width = "100%";
 body.style.minHeight = "100vh";
+
+let label = document.getElementsByTagName("form");
+for (let i = 0; i < label.length; i++) {
+  label[i].style.fontWeight = "bold";
+  label[i].style.color = "#fefefe";
+}
 
 //submit and reset form
 let form = document.querySelector("form");
@@ -23,20 +28,12 @@ form.addEventListener("submit", (event) => {
   console.log("Name: ", fullName);
   console.log("Email: ", email);
   console.log("Phone Number: ", phoneNumber);
-
-  let radioButton = document.getElementsByName("altContact");
-  let selectedButton;
-
-  for (let i = 0; i < radioButton.length; i++) {
-    if (radioButton[i].checked) {
-      selectedButton = radioButton[i];
-      break;
-    }
-  }
-  if (selectedButton) {
-    let altContact = selectedButton.getAttribute("id");
-    console.log("Alternative Contact: ", altContact);
-  } else {
-    alert("Please select an Alternative Contact");
-  }
 });
+
+let buttons = document.querySelectorAll("[name = altContact]");
+for (let button of Array.from(buttons)) {
+  button.addEventListener("change", () => {
+    document.body.style.background = button.value;
+    console.log("Alt Contact: ", button.value);
+  });
+}
