@@ -1,6 +1,5 @@
 let body = document.body;
 body.style.backgroundColor = "#080808";
-//body.style.width = "100%";
 body.style.minHeight = "100vh";
 body.style.color = "#fefefe";
 body.margin = "0rem";
@@ -32,8 +31,8 @@ imageTrack.style.top = "50%";
 imageTrack.style.transform = "translate(0%, -50%)";
 imageTrack.style.marginTop = "10rem";
 
-// Code (28-79) below is from https://codepen.io/Hyperplexed/full/MWXBRBp
-// It allows the images to be scrolled accross the screen
+// Code below is from https://codepen.io/Hyperplexed/full/MWXBRBp
+// It allows the images to be scrolled across the screen
 const track = document.getElementById("images-track");
 
 const handleOnDown = (e) => (track.dataset.mouseDownAt = e.clientX);
