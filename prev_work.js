@@ -31,6 +31,7 @@ for (let i = 0; i < container02.length; i++) {
   container02[i].style.width = "20%";
   container02[i].style.marginRight = "auto";
   container02[i].style.marginTop = "-45rem";
+  container02[i].style.overFlow = "hidden";
 }
 
 let headers = document.getElementsByTagName("h3");
@@ -41,8 +42,8 @@ for (let i = 0; i < headers.length; i++) {
 
 let skills = document.getElementById("skills");
 skills.style.border = "2px solid";
-skills.style.width = "100%";
 skills.style.backgroundColor = "lightgray";
+skills.style.width = "220px";
 
 let container03 = document.getElementsByClassName("container-3");
 for (let i = 0; i < container03.length; i++) {
