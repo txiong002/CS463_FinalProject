@@ -101,3 +101,52 @@ fieldset {
   margin-top: 1rem;
   font-size: medium;
 }
+
+@media screen and (max-width: 600px) {
+  .container-1 {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .box-2 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .box-1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .container-3 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: small;
+    padding-left: 0;
+  }
+  .container-2 {
+    flex-direction: column;
+    width: 100%;
+    font-size: small;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #skills {
+    height: 25%;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .container-2 {
+    margin-top: -45rem;
+  }
+
+  .container-3 {
+    margin-left: 25rem;
+    padding-left: 20px;
+  }
+}
