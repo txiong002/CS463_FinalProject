@@ -5,7 +5,6 @@ body.style.minHeight = "100vh";
 let container01 = document.getElementsByClassName("container-1");
 for (let i = 0; i < container01.length; i++) {
   container01[i].style.display = "flex";
-  // container01[i].style.flexDirection = "column";
 }
 
 let picBox = document.getElementById("profilePic");
@@ -20,7 +19,6 @@ nameBox.style.width = "100%";
 nameBox.style.textAlign = "center";
 nameBox.style.backgroundColor = "teal";
 nameBox.style.width = "80%";
-//nameBox.style.marginLeft = "auto";
 nameBox.style.color = "#fefefe";
 
 let displayName = document.getElementById("yourName");
@@ -29,9 +27,6 @@ displayName.style.fontSize = "50px";
 let container02 = document.getElementsByClassName("container-2");
 for (let i = 0; i < container02.length; i++) {
   container02[i].style.display = "flex";
-  //container02[i].style.width = "20%";
-  //container02[i].style.marginRight = "auto";
-  //container02[i].style.marginTop = "-45rem";
   container02[i].style.overFlow = "hidden";
 }
 
@@ -43,15 +38,12 @@ for (let i = 0; i < headers.length; i++) {
 let skills = document.getElementById("skills");
 skills.style.border = "2px solid";
 skills.style.backgroundColor = "lightgray";
-//skills.style.width = "220px";
 
 let container03 = document.getElementsByClassName("container-3");
 for (let i = 0; i < container03.length; i++) {
   container03[i].style.display = "flex";
   container03[i].style.flexDirection = "column";
   container03[i].style.width = "80%";
-  //container03[i].style.marginLeft = "auto";
-  //container03[i].style.paddingLeft = "5rem";
 }
 
 let dtTags = document.getElementsByTagName("dt");
